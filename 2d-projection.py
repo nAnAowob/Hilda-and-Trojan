@@ -1,3 +1,5 @@
+#This file will represent the top projection of Hilda and Trojans by ploting their coordinates in 3D, along with the color gradient representing the densest points of the asteroids
+
 import pandas as pd
 from sympy import symbols, solve
 df = pd.read_csv(r'CoMat_finalCode/CoMatDataDummy.csv')
